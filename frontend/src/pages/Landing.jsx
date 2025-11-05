@@ -716,7 +716,7 @@ const LandingPage = () => {
             </p>
             <div className="flex space-x-6 text-sm">
               <a
-                href="#"
+                href="../frontend/src/pages/Privacy-policy.html"
                 className="text-gray-400 hover:text-emerald-400 transition-colors duration-200"
               >
                 Privacy Policy
