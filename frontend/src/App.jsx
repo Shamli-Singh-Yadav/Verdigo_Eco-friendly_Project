@@ -12,6 +12,7 @@ import LocalHarvest from "./pages/LocalHarvest";
 import WasteLess from "./pages/WasteLess";
 import CarbonFootprintCalculator from "./pages/CarbonFootprintCalculator";
 import BackToTop from "./components/BackToTop";
+import Policypage from "./pages/Policypage";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -38,6 +39,7 @@ const App = () => {
             <Route path="/dashboard/local-harvest" element={<LocalHarvest />} />
             <Route path="/dashboard/air-buddy" element={<AirBuddy />} />
             <Route path="/dashboard/waste-less" element={<WasteLess />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route
               path="/dashboard/carbon-footprint-calculator"
               element={<CarbonFootprintCalculator />}
